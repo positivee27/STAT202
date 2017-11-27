@@ -1,0 +1,14 @@
+Package: LinearReg
+Title: STAT202A Linear Regression Package
+Version: 0.0.0.9000
+Authors@R: person("Yingzhu", "Liu", email = "yliu25@g.ucla.edu", role = c("aut", "cre"))
+Description: Perform linear regression, logistic regression and PCA using QR decomposition
+Depends: R (>= 3.4.1)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+NeedsCompilation: no
+Packaged: 2017-11-10 01:09:31 UTC; Sancia
+Author: Yingzhu Liu [aut, cre]
+Maintainer: Yingzhu Liu <yliu25@g.ucla.edu>
