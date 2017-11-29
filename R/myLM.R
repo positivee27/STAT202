@@ -18,8 +18,7 @@ myLM <- function(X, Y){
   Y1 = R[1:(p+1), (p+2)]
   beta_ls = solve(R1, Y1)
   
-  X = cbind(rep(1, n), X)
-  Yhat = X %*% beta_ls
+  Yhat = cbind(c(rep(1, n)), X) %*% beta_ls
   se = sqrt(diag(sum((Y - Yhat) ** 2) / (n - p - 1) * solve(t(X) %*% X)))
   
   output <- list(beta_ls = beta_ls, se = se)
